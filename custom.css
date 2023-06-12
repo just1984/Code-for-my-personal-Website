@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("Roboto/Roboto-Regular.ttf");
+}
+
 body {
     height: 100vh;
     margin: 0;
@@ -6,7 +11,7 @@ body {
     animation: gradient 15s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
-    font-family: DM Sans, sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     box-sizing: border-box;
@@ -43,13 +48,14 @@ body {
 .ld-custom-name {
     color: #000000;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 32px; /* Changed from 20px to 32px */
     line-height: 1.5;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
     margin-bottom: 50px;
 }
+
 
 .ld-custom-button-container {
     border: 2px solid #000000;
