@@ -28,6 +28,11 @@ body {
     line-height: 1;
 }
 
+.button-container {
+    padding-bottom: 25px;
+}
+
+
 .container {
     width: 90%;
     max-width: 600px;
